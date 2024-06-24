@@ -1,0 +1,548 @@
+ body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    align-items: centre;
+    }
+
+    .nav {
+        background-color: #cfffcc;
+        height: 2rrem;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .imageword {
+        color: #ebebeb;
+        font-style: normal;
+        font-weight: 800;
+        font-size: .9rem;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: .2rem;
+        line-height: 1.3rem;
+    }
+
+    .imagewordtext {
+        background-image: url('./green\ grass.png');
+        background-repeat: no-repeat;
+        width: fit-content;
+        background-size: cover;
+        height: 35vh;
+        /* margin-top: 3rem;  */
+        font-style: normal;
+        justify-content: space-between;
+        font-weight: 200;
+        line-height: 1.2rem;
+        font-size: 1rem;
+        color: #ebebeb;
+        text-align: center;
+    }
+    
+    .textContainer--text {
+        color: rgb(254, 253, 253);
+        padding: 0 2% 0 2%;
+        background-color: transparent;
+        text-align: center;
+        width: fit-content;
+        height: fit-content;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:  5rem;
+    }
+     
+    .Register {
+        background-color: #0ff147;
+        border: none;
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+        /* display: block; */
+        cursor: pointer;
+        border-radius: 0.4rem;
+        width: fit-content;
+        margin: auto;
+        height: 2.5rem;
+        line-height: .5rem;
+        padding: 0 4% 0 2%;
+        /* margin-top: 4rem; */
+    } 
+
+    .hamburgerContainer div {
+        background-color: #000;
+        height: .2rem;
+        width: 100%;
+        
+    }
+    
+
+    .hamburgerContainer {
+        background-color: #000;
+        width: 40px;
+        height: 30px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        display: none;
+    }
+    
+    .greenholder {
+        background-color: #034414;
+        color: #fff;
+        margin: auto;
+        /* display: flex; */
+        /* justify-content: center; */
+        align-items: center;
+        /* height: 35vh; */
+        width: fit-content;
+        line-height: 2rem;
+        font-size: 1rem;
+        font-family: sans-serif;
+        
+    } 
+    
+    .handimage {
+        width: fit-content;
+        /* padding-left: 2rem;  */
+        
+    }
+
+
+
+.a {
+    text-decoration: none;
+}
+
+.logo {
+    height: 30px;
+
+}
+
+.logo1 {
+    height: 30px;
+    margin-left: 50%;
+    width: 5rem;
+}
+
+   
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.headerLink {
+    align-self: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #121212;
+    
+}
+
+.hamburgerContainer {
+    background-color: #000; 
+    width: 2rem;
+    height: fit-content;
+    margin-bottom: 10px;
+    display: none;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.image {
+    margin-top: 0.5rem;
+    margin-left: 10rem;
+    text-align: center;
+    color: #fff;
+    margin-right: 10rem;
+}
+
+.textContainer div{
+     /* background-color: red;  */
+    height: 60vh;
+}
+
+
+
+
+.textContainer {
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 10rem; */
+}
+
+.textContainer div {
+    width: 100%;
+
+} 
+
+
+
+
+.Register:hover {
+    background-color: #03a52b;
+    
+}
+
+
+.greenholdertext {
+    color: #ebebeb;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.bodyimage {
+    padding: 10rem;
+    margin-bottom: 50rem;
+}
+
+
+
+.handPicture{
+   width: 90%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    height: 80vh; 
+}
+
+.era {
+    max-width: 1200px;
+    color: #000;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    /* text-align: center; */
+}
+
+ul{
+
+    padding: 0;
+}
+
+.eratext {
+ margin: 0;
+ font-size: 3rem;
+ line-height: 3.5rem;
+}
+
+li{
+    font-size: 1rem;
+    list-style-type: none;
+    list-style-position: inside;
+    font-weight: 400;
+}
+
+li::before{
+    content: '> ';
+}
+
+.methodologyimage {
+    width: 100vw;
+    padding:  3rem 0;
+}
+
+.manload {
+    width: 90%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    height: 100vh; 
+}
+
+.methodologytext {
+    background-image: url(./man\ with\ load.png);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    color: #000;
+}
+
+.methodologytext1 {
+    margin-bottom: 10rem;
+    color: #000;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.methodologytext2 {
+    color: #fff;
+    margin-top: 10rem;
+    text-align: center;
+    width: 80%;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+}
+
+.tomato {
+    width: 100vw;
+    padding:  3rem 0;
+    width: 90%;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    height: 100vh;
+    background-image: url(./tomatoe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .greenbox {
+        background-color: #58cd77;
+        color: #fff;
+        margin: 10rem 0 0;
+        margin-top: .001rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        width: 100%;
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+        font-family: sans-serif;
+    }
+
+
+.follow {
+    margin: 0 0 2rem 0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footnote {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.form-container {
+    /* background-color: #fff; */
+     margin-left: 12rem; 
+    background-color: #9ed08f;
+    background-size: auto;
+    margin: auto;
+    margin-top: 3rem;
+    align-items: center;
+    padding: 1rem;
+    height: 50vh;
+    width: 50vw;
+    border-radius: 0.45rem;
+}
+
+.form-container__input{
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    padding-left: 5%;
+    width: 90%;
+    margin-left: 50rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #03a52b;
+}
+
+.a {
+    text-decoration: none;
+} 
+
+.login {
+    background-color: #03a52b;
+    border: none;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    height: 2.5rem;
+    width: 97%;
+    border-radius: 0.4rem;
+     margin-top: .5rem;
+}
+
+/* .forgot_password {
+ align-self: center;
+  text-decoration: none;
+  margin-top: 5rem;
+  margin-left: 2rem;
+  color: #000000;
+  font: 0.093rem;
+  font-family: Arial, Helvetica, sans-serif;
+} */
+
+.create-account {
+    margin-top: 1rem;
+    background-color: #03a52b;
+    border: none;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 97%;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    align-items: center;
+    display: block;
+     margin: auto; 
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.input[type='Email or Phone Number'],input[type='password'],textarea {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #03a52b;
+} 
+
+.message {
+    display: flex;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+     margin-top: 5px; 
+  }
+
+.message_flex {
+    display: flex;
+    justify-items: auto;
+    margin: auto;
+}
+  
+.message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+
+.valid {
+    color: green;
+  }
+  
+.valid:before {
+    position: relative;
+    left: -35px;
+     content: "&#10004;"; 
+  }
+
+.invalid {
+    color: red;
+  }
+  
+.invalid:before {
+    position: relative;
+    left: -35px;
+     content: "&#10006;"; 
+  }
+
+.registernow {
+    background-color: rgb(208, 227, 214);
+    display: grid;
+    justify-items: center;
+    padding: 5rem;
+}
+
+.registerform {
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    margin-top: .5rem;
+    padding-left: 5%;
+    width: 60%;
+    margin-left: 50reml;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #03a52b;
+}
+
+.register-account {
+    margin-top: 1rem;
+    background-color: #03a52b;
+    border: none;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    width: 50%;
+    color: #fff;
+    font-size: large;
+    font-weight: bolder;
+    align-items: center;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.reg {
+    color: #4a9b55;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    html{
+        overflow-x: hidden;
+    }
+}
+
+
+    /* @media screen and (max-width: 950px) {
+         html{
+        overflow-x: hidden;
+    }
+        .textContainer div{
+        background-color: red; 
+            height: 80vh;
+        }
+    
+         }
+ 
+
+   
+    @media screen and (max-width: 850px) {
+       .imageword{
+        font-size: 1.7rem;
+       }
+    
+        }
+        
+    
+    @media screen and (max-width: 650px) {
+       .imageword{
+        font-size: 120%;
+       }
+    
+        } */
+    
